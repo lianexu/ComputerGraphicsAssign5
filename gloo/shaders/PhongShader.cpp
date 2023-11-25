@@ -71,6 +71,8 @@ void PhongShader::SetTargetNode(const SceneNode& node,
   // required) to create some boolean flags in the shader to set whether the
   // texture of each type is enabled (e.g. bool ambient_enabled). Please also
   // take care of the cases where some of textures is nullptr.
+  // SetUniform("material.")
+  // Texture::BindToUnit(int id);
 }
 
 void PhongShader::SetCamera(const CameraComponent& camera) const {

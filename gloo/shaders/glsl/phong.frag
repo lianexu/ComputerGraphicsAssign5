@@ -61,16 +61,19 @@ void main() {
     }
 }
 
-vec3 GetAmbientColor() {
-    return material.ambient;
+vec3 GetAmbientColor() { // TO-DO: call texture function to sample a pixel from the right texture unit
+    return texture(material.GetAmbientTexture(), tex_coord);
+   // return material.ambient;
 }
 
-vec3 GetDiffuseColor() {
-    return material.diffuse;
+vec3 GetDiffuseColor() { // TO-DO
+    return texture(material.GetDiffuseTexture(), tex_coord);
+    //return material.diffuse;
 }
 
-vec3 GetSpecularColor() {
-    return material.specular;
+vec3 GetSpecularColor() { // TO-DO
+    return texture(material.GetSpecularTexture(), tex_coord);
+    //return material.specular;
 }
 
 vec3 CalcAmbientLight() {
