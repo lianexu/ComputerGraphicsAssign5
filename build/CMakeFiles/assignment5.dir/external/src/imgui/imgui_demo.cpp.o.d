@@ -1,7 +1,7 @@
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o: \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/imgui_demo.cpp \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/imgui.h \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/imconfig.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui_demo.cpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imconfig.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config_site \

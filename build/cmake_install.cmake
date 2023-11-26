@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5
+# Install script for directory: /Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5/build/external/src/glfw-3.3.2/cmake_install.cmake")
+  include("/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/external/src/glfw-3.3.2/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

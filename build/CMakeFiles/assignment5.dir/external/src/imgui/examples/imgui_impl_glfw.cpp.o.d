@@ -1,7 +1,7 @@
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o: \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/examples/imgui_impl_glfw.cpp \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/imgui.h \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/imconfig.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_glfw.cpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imconfig.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config_site \
@@ -87,8 +87,8 @@ CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/malloc/_malloc_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_dev_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/imgui/examples/imgui_impl_glfw.h \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignment5/external/src/glfw-3.3.2/include/GLFW/glfw3.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_glfw.h \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/glfw-3.3.2/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \

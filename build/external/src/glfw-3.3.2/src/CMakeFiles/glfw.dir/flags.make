@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5/external/src/glfw-3.3.2/include" -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5/external/src/glfw-3.3.2/src" -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignment5/build/external/src/glfw-3.3.2/src"
+C_INCLUDES = -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/glfw-3.3.2/include" -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/glfw-3.3.2/src" -I"/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/external/src/glfw-3.3.2/src"
 
 C_FLAGSx86_64 = -O3 -DNDEBUG -std=gnu99 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -mmacosx-version-min=11.0 -fPIC -Wall
 
