@@ -73,6 +73,36 @@ void PhongShader::SetTargetNode(const SceneNode& node,
   // take care of the cases where some of textures is nullptr.
   // SetUniform("material.")
   // Texture::BindToUnit(int id);
+
+  auto ambient_texture = material_ptr->GetAmbientTexture();
+  auto diffuse_texture = material_ptr->GetDiffuseTexture();
+  auto specular_texture = material_ptr->GetSpecularTexture();
+
+
+  if (ambient_texture != nullptr){
+    ambient_texture->BindToUnit(0);
+    SetUniform("ambient_sampler",0);
+    SetUniform("ambient_is_texture", true);
+  }else{
+    SetUniform("ambient_is_texture", false);
+  }
+
+  if (diffuse_texture != nullptr){
+    diffuse_texture->BindToUnit(0);
+    SetUniform("diffuse_sampler",0);
+    SetUniform("diffuse_is_texture", true);
+  }else{
+    SetUniform("diffuse_is_texture", false);
+  }
+
+  if (specular_texture != nullptr){
+    specular_texture->BindToUnit(0);
+    SetUniform("specular_sampler",0);
+    SetUniform("specular_is_texture", true);
+  }else{
+    SetUniform("specular_is_texture", false);
+  }
+
 }
 
 void PhongShader::SetCamera(const CameraComponent& camera) const {

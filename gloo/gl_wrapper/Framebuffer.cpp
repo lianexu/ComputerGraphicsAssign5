@@ -38,6 +38,17 @@ void Framebuffer::AssociateTexture(const Texture& texture, GLenum attachment) {
   Bind();
   // TODO: call glFramebufferTexture2D with correct arguments.
   // Make sure you use GL_CHECK to detect potential errors.
+ //GL_TEXTURE_2D, handle_
+  //glFramebufferTexture2D
+  //void glFramebufferTexture2D(	
+  // GLenum target = GL_TEXTURE_2D
+ 	// GLenum attachment = attachment
+ 	// GLenum textarget = handle_
+ 	// GLuint texture = texture
+ 	// GLint level = 0);
+
+  GL_CHECK(glFramebufferTexture2D(GL_FRAMEBUFFER, attachment, GL_TEXTURE_2D, texture.GetHandle(), 0));
+
   GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER);
   if (status != GL_FRAMEBUFFER_COMPLETE) {
     throw std::runtime_error("Incomplete framebuffer!");
