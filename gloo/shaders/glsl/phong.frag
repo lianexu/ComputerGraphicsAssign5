@@ -49,6 +49,9 @@ uniform bool ambient_is_texture;
 uniform bool diffuse_is_texture;
 uniform bool specular_is_texture;
 
+// uniform Texture shadow_texture;
+uniform mat4 world_to_light_ndc_matrix;
+
 
 void main() {
     vec3 normal = normalize(world_normal);
@@ -116,7 +119,7 @@ vec3 CalcPointLight(vec3 normal, vec3 view_dir) {
     return attenuation * (diffuse_color + specular_color);
 }
 
-vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) {
+vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) { // TO-DO: modify this in order to darken the pixel if it is in the shadow
     DirectionalLight light = directional_light;
     vec3 light_dir = normalize(-light.direction);
     float diffuse_intensity = max(dot(normal, light_dir), 0.0);
@@ -129,6 +132,16 @@ vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) {
         light.specular * GetSpecularColor();
 
     vec3 final_color = diffuse_color + specular_color;
+
+
+
+    // if in shadow: 
+        // darken the final color
+
+
+    // in shadow if 
+
+
     return final_color;
 }
 

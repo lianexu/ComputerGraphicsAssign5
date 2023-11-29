@@ -419,10 +419,24 @@ CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/shaders/ShaderProgram.cpp" -o CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.s
 
+CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o: CMakeFiles/assignment5.dir/flags.make
+CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.cpp
+CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o -MF CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o.d -o CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.cpp"
+
+CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.cpp" > CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.i
+
+CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.cpp" -o CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.s
+
 CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/SimpleShader.cpp
 CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o -MF CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o.d -o CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/shaders/SimpleShader.cpp"
 
 CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.i: cmake_force
@@ -436,7 +450,7 @@ CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/gloo/utils.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/gloo/utils.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/utils.cpp
 CMakeFiles/assignment5.dir/gloo/utils.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/assignment5.dir/gloo/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/assignment5.dir/gloo/utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/gloo/utils.cpp.o -MF CMakeFiles/assignment5.dir/gloo/utils.cpp.o.d -o CMakeFiles/assignment5.dir/gloo/utils.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/gloo/utils.cpp"
 
 CMakeFiles/assignment5.dir/gloo/utils.cpp.i: cmake_force
@@ -450,7 +464,7 @@ CMakeFiles/assignment5.dir/gloo/utils.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/glad/src/glad.c
 CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o -MF CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o.d -o CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/glad/src/glad.c"
 
 CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.i: cmake_force
@@ -464,7 +478,7 @@ CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/imgui.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.i: cmake_force
@@ -478,7 +492,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui_demo.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/imgui_demo.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.i: cmake_force
@@ -492,7 +506,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui_draw.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/imgui_draw.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.i: cmake_force
@@ -506,7 +520,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/imgui_widgets.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/imgui_widgets.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.i: cmake_force
@@ -520,7 +534,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_glfw.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_glfw.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.i: cmake_force
@@ -534,7 +548,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_glfw.cpp.s: cm
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_opengl3.cpp
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o -MF CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/external/src/imgui/examples/imgui_impl_opengl3.cpp"
 
 CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.i: cmake_force
@@ -548,7 +562,7 @@ CMakeFiles/assignment5.dir/external/src/imgui/examples/imgui_impl_opengl3.cpp.s:
 CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/assignment_code/assignment5/ShadowViewerApp.cpp
 CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o -MF CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o.d -o CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/assignment_code/assignment5/ShadowViewerApp.cpp"
 
 CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.i: cmake_force
@@ -562,7 +576,7 @@ CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.s: cm
 CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/assignment_code/assignment5/SunNode.cpp
 CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o -MF CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o.d -o CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/assignment_code/assignment5/SunNode.cpp"
 
 CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.i: cmake_force
@@ -576,7 +590,7 @@ CMakeFiles/assignment5.dir/assignment_code/assignment5/SunNode.cpp.s: cmake_forc
 CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/assignment_code/assignment5/main.cpp
 CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o -MF CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o.d -o CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/assignment_code/assignment5/main.cpp"
 
 CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.i: cmake_force
@@ -590,7 +604,7 @@ CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.s: cmake_force
 CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o: CMakeFiles/assignment5.dir/flags.make
 CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o: /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/assignment_code/common/helpers.cpp
 CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o: CMakeFiles/assignment5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o -MF CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o.d -o CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o -c "/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/assignment_code/common/helpers.cpp"
 
 CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.i: cmake_force
@@ -628,6 +642,7 @@ assignment5_OBJECTS = \
 "CMakeFiles/assignment5.dir/gloo/shaders/PhongShader.cpp.o" \
 "CMakeFiles/assignment5.dir/gloo/shaders/PlainTextureShader.cpp.o" \
 "CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.o" \
+"CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o" \
 "CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o" \
 "CMakeFiles/assignment5.dir/gloo/utils.cpp.o" \
 "CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o" \
@@ -670,6 +685,7 @@ assignment5: CMakeFiles/assignment5.dir/gloo/parsers/ObjParser.cpp.o
 assignment5: CMakeFiles/assignment5.dir/gloo/shaders/PhongShader.cpp.o
 assignment5: CMakeFiles/assignment5.dir/gloo/shaders/PlainTextureShader.cpp.o
 assignment5: CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.o
+assignment5: CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o
 assignment5: CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o
 assignment5: CMakeFiles/assignment5.dir/gloo/utils.cpp.o
 assignment5: CMakeFiles/assignment5.dir/external/src/glad/src/glad.c.o
@@ -686,7 +702,7 @@ assignment5: CMakeFiles/assignment5.dir/assignment_code/common/helpers.cpp.o
 assignment5: CMakeFiles/assignment5.dir/build.make
 assignment5: external/src/glfw-3.3.2/src/libglfw3.a
 assignment5: CMakeFiles/assignment5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable assignment5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lianexu/Dropbox (MIT)/6.4400 Computer Graphics/assignments_f23/assignment5/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable assignment5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

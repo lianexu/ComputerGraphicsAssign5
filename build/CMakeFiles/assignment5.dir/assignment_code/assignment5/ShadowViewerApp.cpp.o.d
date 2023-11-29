@@ -1054,6 +1054,8 @@ CMakeFiles/assignment5.dir/assignment_code/assignment5/ShadowViewerApp.cpp.o: \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/Image.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/PlainTextureShader.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShaderProgram.hpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/gl_wrapper/Framebuffer.hpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/glm-0.9.9.8/glm/gtx/string_cast.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/glm-0.9.9.8/glm/gtx/../glm.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/external/src/glm-0.9.9.8/glm/gtx/../gtc/type_precision.hpp \

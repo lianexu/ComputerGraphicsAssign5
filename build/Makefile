@@ -1064,6 +1064,30 @@ gloo/shaders/ShaderProgram.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.s
 .PHONY : gloo/shaders/ShaderProgram.cpp.s
 
+gloo/shaders/ShadowShader.o: gloo/shaders/ShadowShader.cpp.o
+.PHONY : gloo/shaders/ShadowShader.o
+
+# target to build an object file
+gloo/shaders/ShadowShader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o
+.PHONY : gloo/shaders/ShadowShader.cpp.o
+
+gloo/shaders/ShadowShader.i: gloo/shaders/ShadowShader.cpp.i
+.PHONY : gloo/shaders/ShadowShader.i
+
+# target to preprocess a source file
+gloo/shaders/ShadowShader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.i
+.PHONY : gloo/shaders/ShadowShader.cpp.i
+
+gloo/shaders/ShadowShader.s: gloo/shaders/ShadowShader.cpp.s
+.PHONY : gloo/shaders/ShadowShader.s
+
+# target to generate assembly for a file
+gloo/shaders/ShadowShader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assignment5.dir/build.make CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.s
+.PHONY : gloo/shaders/ShadowShader.cpp.s
+
 gloo/shaders/SimpleShader.o: gloo/shaders/SimpleShader.cpp.o
 .PHONY : gloo/shaders/SimpleShader.o
 
@@ -1235,6 +1259,9 @@ help:
 	@echo "... gloo/shaders/ShaderProgram.o"
 	@echo "... gloo/shaders/ShaderProgram.i"
 	@echo "... gloo/shaders/ShaderProgram.s"
+	@echo "... gloo/shaders/ShadowShader.o"
+	@echo "... gloo/shaders/ShadowShader.i"
+	@echo "... gloo/shaders/ShadowShader.s"
 	@echo "... gloo/shaders/SimpleShader.o"
 	@echo "... gloo/shaders/SimpleShader.i"
 	@echo "... gloo/shaders/SimpleShader.s"

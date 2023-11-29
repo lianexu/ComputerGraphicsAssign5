@@ -71,6 +71,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment5.dir/gloo/shaders/PlainTextureShader.cpp.o.d"
   "CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.o"
   "CMakeFiles/assignment5.dir/gloo/shaders/ShaderProgram.cpp.o.d"
+  "CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o"
+  "CMakeFiles/assignment5.dir/gloo/shaders/ShadowShader.cpp.o.d"
   "CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o"
   "CMakeFiles/assignment5.dir/gloo/shaders/SimpleShader.cpp.o.d"
   "CMakeFiles/assignment5.dir/gloo/utils.cpp.o"

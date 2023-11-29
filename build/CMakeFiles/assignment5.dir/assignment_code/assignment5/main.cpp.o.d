@@ -1053,4 +1053,6 @@ CMakeFiles/assignment5.dir/assignment_code/assignment5/main.cpp.o: \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/gl_wrapper/Texture.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/Image.hpp \
   /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/PlainTextureShader.hpp \
-  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShaderProgram.hpp
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShaderProgram.hpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/gl_wrapper/Framebuffer.hpp \
+  /Users/lianexu/Dropbox\ (MIT)/6.4400\ Computer\ Graphics/assignments_f23/assignment5/gloo/shaders/ShadowShader.hpp
