@@ -187,10 +187,10 @@ void Renderer::RenderScene(const Scene& scene) const {
     // const Texture& shadow_texture,
     // const glm::mat4& world_to_light_ndc_matrix)
     
-      if (light.CanCastShadow()){
-        shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
-      robj_ptr->Render();
-    }
+    //   if (light.CanCastShadow()){
+    //     shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
+    //   robj_ptr->Render();
+    // }
 
   }
   }

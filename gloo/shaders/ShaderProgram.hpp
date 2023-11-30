@@ -46,7 +46,6 @@ class ShaderProgram : public IBindable {
   void SetUniform(const std::string& name, const glm::vec3& value) const;
   void SetUniform(const std::string& name, float value) const;
   void SetUniform(const std::string& name, int value) const;
-//   void SetUniform(const std::string& name, const Texture& value) const;
 
  private:
   static GLuint LoadShader(GLenum type,
