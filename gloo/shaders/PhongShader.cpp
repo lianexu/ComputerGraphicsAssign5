@@ -88,16 +88,16 @@ void PhongShader::SetTargetNode(const SceneNode& node,
   }
 
   if (diffuse_texture != nullptr){
-    diffuse_texture->BindToUnit(0);
-    SetUniform("diffuse_sampler",0);
+    diffuse_texture->BindToUnit(1);
+    SetUniform("diffuse_sampler",1);
     SetUniform("diffuse_is_texture", true);
   }else{
     SetUniform("diffuse_is_texture", false);
   }
 
   if (specular_texture != nullptr){
-    specular_texture->BindToUnit(0);
-    SetUniform("specular_sampler",0);
+    specular_texture->BindToUnit(2);
+    SetUniform("specular_sampler",2);
     SetUniform("specular_is_texture", true);
   }else{
     SetUniform("specular_is_texture", false);
@@ -156,8 +156,9 @@ void PhongShader::SetShadowMapping(
     const glm::mat4& world_to_light_ndc_matrix) const {
   // TODO: set necessary uniforms for the shader and bind the texture to the
   // corresponding texture unit.
-  // SetUniform("shadow_texture", shadow_texture);
+  // SetUniform("shadow_texture", shadow_texture)
+  shadow_texture.BindToUnit(3);
+  SetUniform("shadow_texture",3);
   SetUniform("world_to_light_ndc_matrix", world_to_light_ndc_matrix);
-  
 }
 }  // namespace GLOO

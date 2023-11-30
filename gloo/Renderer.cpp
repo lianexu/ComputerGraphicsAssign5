@@ -189,10 +189,10 @@ void Renderer::RenderScene(const Scene& scene) const {
     
       if (light.CanCastShadow()){
         shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
-      }
       robj_ptr->Render();
     }
 
+  }
   }
 
   // Re-enable writing to depth buffer.
