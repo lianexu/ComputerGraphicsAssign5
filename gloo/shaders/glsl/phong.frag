@@ -49,9 +49,9 @@ uniform bool ambient_is_texture;
 uniform bool diffuse_is_texture;
 uniform bool specular_is_texture;
 
-// uniform Texture shadow_texture;
-// uniform mat4 world_to_light_ndc_matrix;
-// uniform sampler2D shadow_texture;
+
+uniform mat4 world_to_light_ndc_matrix;
+uniform sampler2D shadow_texture;
 
 
 void main() {
@@ -120,19 +120,20 @@ vec3 CalcPointLight(vec3 normal, vec3 view_dir) {
     return attenuation * (diffuse_color + specular_color);
 }
 
-// bool CalcShadow(){
-//     vec3 x_ndc =  vec3(world_to_light_ndc_matrix * vec4(world_position, 1.f));
-//     // vec3 x_tex = vec3((x_ndc.x + 1.0)/2.0, (x_ndc.y + 1.0)/2.0, (x_ndc.z + 1.0)/2.0); // from ndc to tex, AKA [-1,1] --> [0,1]
-//     vec3 x_tex = x_ndc;
-//     float this_depth = x_tex.z; 
+bool CalcShadow(){
+    vec3 x_ndc =  vec3(world_to_light_ndc_matrix * vec4(world_position, 1.f));
+    vec3 x_tex = x_ndc * 0.5 + 0.5;
+    // vec3 x_tex = vec3((x_ndc.x + 1.0)/2.0, (x_ndc.y + 1.0)/2.0, (x_ndc.z + 1.0)/2.0); // from ndc to tex, AKA [-1,1] --> [0,1]
+    // vec3 x_tex = x_ndc;
+    float this_depth = x_tex.z; 
 
-//     float occluder_depth = (texture(shadow_texture, x_tex.xy, 0.001)).z;
-//     if ((occluder_depth) < this_depth) {
-//         return true; // <fragment in shadow> return true
-//     } else{
-//         return false; //<fragment illuminated>
-//     }
-// }
+    float occluder_depth = (texture(shadow_texture, x_tex.xy)).r;
+    if ((occluder_depth + 0.005) < this_depth) {
+        return true; // <fragment in shadow> return true
+    } else{
+        return false; //<fragment illuminated>
+    }
+}
 
 vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) { // TO-DO: modify this in order to darken the pixel if it is in the shadow
     DirectionalLight light = directional_light;
@@ -149,9 +150,10 @@ vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) { // TO-DO: modify this in
     vec3 final_color = diffuse_color + specular_color;
 
 
-    // if (CalcShadow()){
-    //     final_color -= vec3(0.3f, 0.3f, 0.3f);
-    // }
+    if (CalcShadow()){
+        return vec3(0.f);
+        // final_color -= vec3(0.3f, 0.3f, 0.3f);
+    }
     return final_color;
 }
 

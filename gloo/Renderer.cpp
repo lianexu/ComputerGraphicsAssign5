@@ -151,12 +151,10 @@ void Renderer::RenderScene(const Scene& scene) const {
       GL_CHECK(glDepthMask(GL_TRUE));
       GL_CHECK(glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE));
       GL_CHECK(glClear(GL_DEPTH_BUFFER_BIT));
-      RenderShadow(light, rendering_info, world_to_light_ndc_matrix);
+      RenderShadow(*light_ptrs.at(light_id), rendering_info, world_to_light_ndc_matrix);
       framebuffer_->Unbind();
-      // reset window size thing
-      // call debug shadow map at the end of render shadow 
     }
-    GL_CHECK(glViewport(0, 0, application_.GetWindowSize()[0], application_.GetWindowSize()[1]));
+    GL_CHECK(glViewport(0, 0, application_.GetWindowSize().x, application_.GetWindowSize().y));
 
     GL_CHECK(glDepthMask(GL_FALSE));
     bool color_mask = GL_TRUE;
@@ -179,51 +177,29 @@ void Renderer::RenderScene(const Scene& scene) const {
       shader->SetTargetNode(node, pr.second);
       shader->SetCamera(*camera);
 
-      LightComponent& light = *light_ptrs.at(light_id);
+      // LightComponent& light = *light_ptrs.at(light_id);
       shader->SetLightSource(light);
       // TODO: pass in the shadow texture to the shader via SetShadowMapping if
       // the light can cast shadow.
-    //SetShadowMapping(
-    // const Texture& shadow_texture,
-    // const glm::mat4& world_to_light_ndc_matrix)
-    
-    //   if (light.CanCastShadow()){
-    //     shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
-    //   robj_ptr->Render();
-    // }
+      if (light.CanCastShadow()){
+          shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
+      }
+      robj_ptr->Render();
 
   }
   }
 
   // Re-enable writing to depth buffer.
   GL_CHECK(glDepthMask(GL_TRUE));
-  // DebugShadowMap();
 }
 
 void Renderer::RenderShadow(LightComponent& light, RenderingInfo rendering_info, glm::mat4& world_to_light_ndc_matrix) const{
-  // 
-  //   There you will need to figure out matrices (uniform variables) used in the shadow
-  // map shaders (model_matrix and world_to_light_ndc_matrix), and correctly assign values to them using
-  // ShaderProgram::SetUniform
-
-
   world_to_light_ndc_matrix = kLightProjection*glm::inverse(light.GetNodePtr()->GetTransform().GetLocalToWorldMatrix());
-
-  
-  // ShadowShader& shadow_shader_ptr = make_unique<ShadowShader>();
-  // ShadowShader shadow_shader = *shadow_shader_ptr;
-  // ShadowShader shadow_shader = ShadowShader();
-  // shadow_shader.SetCamera2(world_to_light_ndc_matrix);
-
+   const auto& shadow_shading_ptr = make_unique<ShadowShader>();
 
   for (const auto& pr : rendering_info) {
-    //using RenderingInfo = std::vector<std::pair<RenderingComponent*, glm::mat4>>;
     auto robj_ptr = pr.first;
     SceneNode& node = *robj_ptr->GetNodePtr();
-    auto shading_ptr = node.GetComponentPtr<ShadingComponent>();
-
-
-    const auto& shadow_shading_ptr = make_unique<ShadowShader>();
     BindGuard shader_bg(shadow_shading_ptr.get());
     shadow_shading_ptr->SetCamera2(world_to_light_ndc_matrix);
     shadow_shading_ptr->SetTargetNode(node, pr.second);
