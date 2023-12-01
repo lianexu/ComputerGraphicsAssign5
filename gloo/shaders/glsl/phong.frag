@@ -75,7 +75,6 @@ void main() {
 
 vec3 GetAmbientColor() { // TO-DO: call texture function to sample a pixel from the right texture unit
     if (ambient_is_texture){
-        //frag_color = vec4(texture(in_texture, tex_coord).rgb, 1.0);
         return vec3(texture(ambient_sampler, tex_coord));
     }
     return material.ambient;
@@ -120,18 +119,16 @@ vec3 CalcPointLight(vec3 normal, vec3 view_dir) {
     return attenuation * (diffuse_color + specular_color);
 }
 
-bool CalcShadow(){
+float CalcShadow(){
+    float total = 0.0f;
     vec3 x_ndc =  vec3(world_to_light_ndc_matrix * vec4(world_position, 1.f));
-    vec3 x_tex = x_ndc * 0.5 + 0.5;
-    // vec3 x_tex = vec3((x_ndc.x + 1.0)/2.0, (x_ndc.y + 1.0)/2.0, (x_ndc.z + 1.0)/2.0); // from ndc to tex, AKA [-1,1] --> [0,1]
-    // vec3 x_tex = x_ndc;
+    vec3 x_tex = x_ndc * 0.5 + 0.5; // from ndc to tex, AKA [-1,1] --> [0,1]
     float this_depth = x_tex.z; 
-
-    float occluder_depth = (texture(shadow_texture, x_tex.xy)).r;
-    if ((occluder_depth + 0.005) < this_depth) {
-        return true; // <fragment in shadow> return true
+    float occluder_depth = (texture(shadow_texture, vec2(x_tex.x, x_tex.y))).r;
+    if ((occluder_depth + 0.001) < this_depth) {
+        return 0.0; // <fragment in shadow> return true
     } else{
-        return false; //<fragment illuminated>
+        return 1.0; //<fragment illuminated>
     }
 }
 
@@ -149,11 +146,11 @@ vec3 CalcDirectionalLight(vec3 normal, vec3 view_dir) { // TO-DO: modify this in
 
     vec3 final_color = diffuse_color + specular_color;
 
-
-    if (CalcShadow()){
-        return vec3(0.f);
-        // final_color -= vec3(0.3f, 0.3f, 0.3f);
-    }
+    final_color *= CalcShadow();
+    // if (CalcShadow()){
+    //     return vec3(0.f);
+    //     // final_color -= vec3(0.3f, 0.3f, 0.3f);
+    // }
     return final_color;
 }
 

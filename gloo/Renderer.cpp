@@ -176,19 +176,16 @@ void Renderer::RenderScene(const Scene& scene) const {
       // Set various uniform variables in the shaders.
       shader->SetTargetNode(node, pr.second);
       shader->SetCamera(*camera);
-
-      // LightComponent& light = *light_ptrs.at(light_id);
       shader->SetLightSource(light);
+
       // TODO: pass in the shadow texture to the shader via SetShadowMapping if
       // the light can cast shadow.
       if (light.CanCastShadow()){
           shader->SetShadowMapping(*shadow_depth_tex_, world_to_light_ndc_matrix);
       }
       robj_ptr->Render();
-
   }
   }
-
   // Re-enable writing to depth buffer.
   GL_CHECK(glDepthMask(GL_TRUE));
 }
